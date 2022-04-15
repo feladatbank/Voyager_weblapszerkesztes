@@ -1,0 +1,40 @@
+ Weboldalak kódolása                    (40 pont)
+
+                  Voyager
+
+
+A következő feladatban egy weboldalt kell készítenie a Voyager küldetés rövid bemutatására a feladatleírás és a minta szerint! Ahol a feladat másként nem kéri, a formázási beállításokat a style.css stílusállományban végezze el úgy, hogy az új szelektorokat az állomány végén helyezze el!
+
+Nagyobb felbontású, színes mintát a kész weboldalról a minta.jpg állományban talál, melyet tilos a megoldáshoz felhasználni! A forrás weboldal szerkezeti ábrája a kiinduló szerkezeti ábra.png, a kész weboldal ábrája a kész szerkezeti ábra.png állományban található meg.
+
+Nyissa meg a index.html állományt és szerkessze annak tartalmát az alábbiak szerint:
+
+1. A weboldal karakterkódolása utf-8, a weboldal nyelve magyar legyen!
+2. A böngésző címsorában megjelenő cím „Voyager küldetés" legyen! 
+3. A weboldal fejrészében helyezzen el hivatkozást a style.css és a bootstrap.min.css stíluslapokra!
+4. A bevezető szekcióban a „Voyager-1"szöveget alakítsa 1-es szintű címsorrá!
+5. A bevezető szekcióban a mintán látható szövegrészt inline stílus alkalmazásával alakítsa félkövérré!
+6. A küldetés szekcióban alakítsa ki a 2. sorban található részt (két oszlop) az alábbi leírás, az első sor kialakítása és a minta alapján! A szükséges szövegek a forrás.txt állományban találhatóak.
+  a. A szövegrész bekezdéseit a minta alapján alakítsa ki!
+  b. Alakítsa dőltté a „10 milliárd bit" szövegrészt inline stílus alkalmazásával!
+  c. Helyezze el a képeket (v1-szaturnusz.jpg, v1-csillagkozi.jpg) a megfelelő helyre!
+  d. Ha a kép nem jelenik meg, vagy ha a kép fölé visszük az egér kurzort, akkor az első kép esetében a „Szaturnusz", a második kép esetében a „Csillagközi tér" szöveg jelenjen meg!
+  e. A képaláírások szövege legyen a minta szerinti!
+  f. A képaláírásoknál (5 helyen) alkalmazza a BootStrap font-weight-bold osztálykijelölőjét!
+
+7. A weboldalon készítsen egy új menüpontot az alábbi leírás és a minta alapján:
+   a. Az új menüpont a „Jelenlegi helyzete" menüpont után helyezkedjen el, és „Aranylemez" legyen a neve! Az új menüpont az oldalon belül az arany azonosítójú keretre hivatkozzon!
+   b. Az aranylemez szekcióban levő keretbe másolja be az UTF-8 kódolású aranylemez.txt állomány tartalmát! A beillesztett szövegben a minta szerinti 2-es szintű címsort, a bekezdést és a felsorolást alakítsa ki! A felsorolás elemeit formázza meg a BootStrap my-2 osztálykijelölőjének használatával!
+  c. Szúrja be az előző pontban kialakított felsorolás mögé az aranylemez.jpg képet! Formázza a képet a BootStrap my-3 és w-100 osztálykijelölőinek használatával! Ha a kép nem jelenik meg, vagy ha a kép fölé visszük az egér kurzort, akkor a „Golden Record" szöveg jelenjen meg!
+  d. A kép alatti szövegrészt helyezze egy bekezdésbe!
+
+8. Módosítsa a lábléc beállításait az alábbi leírás és a minta alapján:
+  a. Készítsen hivatkozást az alábbi weboldalra: https://voyager.jpl.nasa.gov!
+  b. A hivatkozás szövege „Voyager küldetés" legyen!
+  c. A hivatkozás új oldalon nyíljon meg! 
+9. A következő beállításokat, módosításokat a style.css külső stíluslap állományon végezze el:
+  a. Az info osztályazonosítójú elem a háttérszíne 250,250,210 RGB kódú legyen, 2 képpont vastag, folytonos, 105,105,105 RGB színű vonal szegélyezze! A szegély
+lekerekítése 10 képpontos legyen!
+  b. A láblécben lévő hivatkozáshoz készítsen stílusbeállítást úgy, hogy a hivatkozás szövege fekete színű, félkövér legyen aláhúzás nélkül! Ha a hivatkozás fölé visszük az egér kurzort, akkor a szöveg legyen dőlt és a színe piros!
+  c. A megfelelő szelektor alkalmazásával a dokumentum összes bekezdésének igazítása
+legyen sorkizárt!
